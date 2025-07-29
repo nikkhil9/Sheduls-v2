@@ -2,7 +2,7 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 import type { Appointment } from '@/utils/types';
 
 // --- MOCK DATABASE ---
-let mockAppointments: Appointment[] = [
+const mockAppointments: Appointment[] = [
     { id: 1001, doctorId: 1, patientName: 'John Doe', date: '2025-07-29', time: '10:00 AM', reason: 'Annual Checkup', status: 'Upcoming' },
     { id: 1002, doctorId: 2, patientName: 'Jane Smith', date: '2025-07-29', time: '11:30 AM', reason: 'Follow-up Visit', status: 'Upcoming' },
     { id: 1003, doctorId: 1, patientName: 'Peter Jones', date: '2025-07-29', time: '02:00 PM', reason: 'Consultation', status: 'Upcoming' },

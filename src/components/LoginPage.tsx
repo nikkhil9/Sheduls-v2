@@ -37,10 +37,10 @@ export const LoginPage = ({ onLogin }: LoginPageProps) => {
 
         <div className="flex justify-center bg-slate-100 rounded-full p-1">
             <button onClick={() => handleRoleChange('patient')} className={`w-1/2 py-2 px-4 rounded-full text-sm font-semibold transition-colors ${role === 'patient' ? 'bg-indigo-600 text-white shadow' : 'text-slate-600'}`}>
-                I'm a Patient
+                I&apos;m a Patient
             </button>
             <button onClick={() => handleRoleChange('doctor')} className={`w-1/2 py-2 px-4 rounded-full text-sm font-semibold transition-colors ${role === 'doctor' ? 'bg-indigo-600 text-white shadow' : 'text-slate-600'}`}>
-                I'm a Doctor
+                I&apos;m a Doctor
             </button>
         </div>
 
